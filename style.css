@@ -1,0 +1,49 @@
+/*
+
+A. Canva'dan bir renk paleti seçin: https://www.canva.com/colors/color-palettes/
+
+Önerilen: https://www.canva.com/colors/color-palettes/autumns-here/
+
+B. Bu sayfanın bazı elementlerini tasarlamayı düşünün. Ekstra biçimlendirme veya CSS class'ları ekleyerek desteklemek için HTML'yi gerektiği gibi değiştirin.
+
+C. Aşağıdakilerden herhangi birini göz önünde bulundurarak sayfayı daha çekici hale getirmek için bazı stiller yazalım:
+- Renkler: metin rengi, arka plan renkleri
+- Farklı renk formatları (adlandırılmış renkler, hex değerler, RGB değerleri)
+- Metni büyük harf yapalım
+- Metni kalın yapalım
+- Aşağıda listelenen gibi bir arka plan resmi ekleyelim.
+
+    background-image:
+url("https://assets.codepen.io/296057/lil-css-nocode-leaves.jpg");
+
+D. BONUS: Bazı CSS özelliklerini keşfedelim. Aşağıdaki kaynağı okuyun ve çalışmanıza yeni bir CSS özelliği dahil edip edemeyeceğinizi görün.
+
+Text alignment: https://www.w3schools.com/css/css_text_align.asp
+
+*/
+body {
+    background-image:url("https://assets.codepen.io/296057/lil-css-nocode-leaves.jpg");
+    color:#672901;
+  }
+  h1 {
+    letter-spacing:3px;
+    text-align:center;
+    background-color: #D41E00;
+    color: #FFFFFF;
+    text-transform:uppercase;
+   }
+  h2 {
+    letter-spacing:3px;
+    text-align:center;
+    background-color: #F76201;
+    color: #FFFFFF;
+  }
+  h3 {
+    letter-spacing:3px;
+    text-align:center;
+    background-color: #F76201;
+    color: #FFFFFF;
+  }
+  p {
+    line-height:3rem;
+  }
